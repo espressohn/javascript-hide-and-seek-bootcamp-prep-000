@@ -16,7 +16,7 @@ function increaseRankBy(n){
 
 function deepestChild(){
   const lis = document.getElementById('app').querySelectorAll('div grand-node')
-
+  console.log(lis)
    return lis[lis.length-1].innerHTML
   //for (let i = 0; i < lis.length; i++) {
     //lis[i].innerHTML = (parseInt(lis[i].innerHTML) + n).toString()
